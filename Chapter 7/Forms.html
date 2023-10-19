@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    
+    <form action="https://www.example.com/login.php" method="get">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+        <p>First Name
+            <input type="text" name="firstname" size="15" maxlength="36" required>
+            <br>
+            <br>
+
+            Last Name
+            <input type="text" name="Lastname" size="15" maxlength="36">
+            <br>
+            <br>
+            
+            Gender
+            <input id="Male" type="radio" name="Gender" value="M"></label>
+            <label for="Male">Male</label>
+            <label><input type="radio" name="Gender" value="F">Female</label>
+            <br>
+            <br>
+
+            Date of Birth
+            <input type="date" name="dob">
+            <br>
+            <br>
+
+            Input your email address
+            <input type="email" name="email">
+            <br>
+            <br>
+
+            Input your website
+            <input type="url" name="website">
+
+        </p>
+            
+
+        </fieldset>
+            
+        <p>Interests:
+            <label><input type="checkbox" name="Interests" value="Mencl">Men Clothing</label>
+            <label><input type="checkbox" name="Interests" value="Womencl">Women Clothing</label>
+            <label><input type="checkbox" name="Interests" value="Accs">Accessories</label>
+            <label><input type="checkbox" name="Interests" value="Electronix">Electronix</label>
+
+        </p>
+        <p>Nationality
+            <select name="Country" multiple>
+                <option></option>
+                <option value="PK">Pakistan</option>
+                <option value="US">USA</option>
+                <option value="UK">England</option>
+                <option value="GM">Germany</option>
+            </select>
+        </p>
+        <p>
+            Password
+            <input type="password" name="password" size="15" maxlength="36">
+            <br>
+            <br>
+            Re-enter Password
+            <input type="password" name="password" size="15" maxlength="36">
+            <br>
+            <br>
+            Comments
+        </p>
+
+        <textarea name=Comments" rows="5" cols="30">Please type here</textarea>
+
+        <input type="hidden" name="Source" value="Signup">
+        <p>Upload profile pic
+            <br>
+            <br>
+            <input type="file">
+            <br>
+            <br>
+            <input type="submit" value="Finish">
+
+            <br>
+            <br>
+            <input type="image" src="../Chapter 5/Pic.JPG" width="150" height="50">
+        </p>
+        
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>

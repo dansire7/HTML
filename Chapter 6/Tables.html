@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <h2>Examples of table using Table, Tr & Td tags</h2>
+    <table>
+        <tr>
+            <td>2000</td>
+            <td>1750</td>
+        </tr>
+        <tr>
+            <td>3000</td>
+            <td>2500</td>
+        </tr>
+        <tr>
+            <td>4000</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>5000</td>
+            <td>4000</td>
+        </tr>
+    </table>
+
+<hr>
+<h2>When using attributes of width, border and bgcolor </h2>
+<table width="500" border="2" bgcolor="#efefef">
+    <tr>
+        <td>2000</td>
+        <td>1750</td>
+    </tr>
+    <tr>
+        <td>3000</td>
+        <td>2500</td>
+    </tr>
+    <tr>
+        <td>4000</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <td>5000</td>
+        <td>4000</td>
+    </tr>
+</table>
+<hr>
+<h2>When adding the headings using th tag </h2>
+<table width="500" border="2" bgcolor="#efefef">
+    <tr>
+        <th>Product</th>
+        <th>Original Price</th>
+        <th>Discounted Price</th>
+    </tr>
+    <tr>
+        <th>Printed unstitched 2 Pcs</th>
+        <td>2000</td>
+        <td>1750</td>
+    </tr>
+    <tr>
+        <th>Printed unstitched 3 Pcs</th>
+        <td>3000</td>
+        <td>2500</td>
+    </tr>
+    <tr>
+        <th>Stitched 2 Pcs</th>
+        <td>4000</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <th>Stitched 3 Pcs</th>
+        <td>5000</td>
+        <td>4000</td>
+    </tr>
+    
+</table>
+<hr>
+<h2>When adding the cellpadding and cellspacing attributes</h2>
+<table width="500" border="2" bgcolor="#efefef" cellpadding="10" cellspacing="5">
+    <tr>
+        <th>Product</th>
+        <th>Original Price</th>
+        <th>Discounted Price</th>
+    </tr>
+    <tr>
+        <th>Printed unstitched 2 Pcs</th>
+        <td>2000</td>
+        <td>1750</td>
+    </tr>
+    <tr>
+        <th>Printed unstitched 3 Pcs</th>
+        <td>3000</td>
+        <td>2500</td>
+    </tr>
+    <tr>
+        <th>Stitched 2 Pcs</th>
+        <td>4000</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <th>Stitched 3 Pcs</th>
+        <td>5000</td>
+        <td>4000</td>
+    </tr>
+</table>
+<hr>
+<h2>When using attributes i.e. colspan and rowspan + defining thead, tbody and tfoot</h2>
+<table width="500" border="2" bgcolor="#efefef" cellpadding="10" cellspacing="5">
+<thead>
+    <tr>
+        <th>Product</th>
+        <th>Original Price</th>
+        <th>Discounted Price</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <th>Printed unstitched 2 Pcs</th>
+        <td>2000</td>
+        <td>1750</td>
+    </tr>
+    <tr>
+        <th>Printed unstitched 3 Pcs</th>
+        <td colspan="2">3000</td>
+        
+    </tr>
+    <tr>
+        <th>Stitched 2 Pcs</th>
+        <td rowspan="2">5000</td>
+        <td>3000</td>
+    </tr>
+    <tr>
+        <th>Stitched 3 Pcs</th>
+        <td>4000</td>
+        
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+      <td colspan="3">  Note: Discounted price is not valid during sale</td>
+    </tr>
+</tfoot>
+</table>
+
+
+</body>
+</html>
